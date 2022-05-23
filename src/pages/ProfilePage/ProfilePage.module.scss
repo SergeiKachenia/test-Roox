@@ -1,0 +1,75 @@
+.profilePage__flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.profilePage__section {
+    width: 77%;
+}
+
+.profilePage__wrapcontainer {
+    margin: 0 auto;
+    width: 63%;
+}
+
+.profilePage__headingcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}
+
+.profilePage__inputsform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #F3F3F3;
+    border-radius: 8px;
+    padding: 20px 0 30px;
+}
+
+.profilePage__input {
+    width: 50%;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.profilePage__label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.profilePage__heading {
+    margin: 0 0 15px;
+}
+
+.profilePage__editbutton {
+    width: fit-content;
+    height: fit-content;
+    padding: 6px 12px;
+    border: none;
+    background: #4B51EF;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.profilePage__textarea {
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+}
+
+.profilePage__submitbutton {
+    margin: 10px 0 0;
+    padding: 5px 8px 5px 15px;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+    background: #52CF4F;
+    border-radius: 5px;
+    border: none;
+    float: right;
+}

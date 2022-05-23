@@ -1,0 +1,19 @@
+.userItem__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 0;
+}
+
+.userItem__heading {
+    color: #A3A3A3;
+    margin: 0;
+    padding: 0;
+}
+
+.userItem__listitem {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}

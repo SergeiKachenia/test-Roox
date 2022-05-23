@@ -1,0 +1,14 @@
+@mixin fonts($path, $ffamily, $weight) {
+    @font-face {
+        src: url('#{$path}.ttf') format('ttf');
+        font-family: '#{$ffamily}';
+        font-weight: $weight;
+    }
+}
+
+@include fonts('../fonts/Roboto-Regular.ttf',
+'Roboto',
+400);
+@include fonts('../fonts/Roboto-Bold.ttf',
+'Roboto',
+700);

@@ -1,0 +1,44 @@
+.listPage__section {
+    min-width: 77%;
+}
+
+.listPage__flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.listPage__list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.listPage__listitem {
+    margin: 0 auto 14px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.listPage__link {
+    align-self: flex-end;
+    color: #4B51EF;
+    text-decoration: none;
+}
+
+.listPage__heading {
+    color: #000000;
+    margin: 18px 0;
+}
+
+.listPage__span {
+    float: right;
+}
+
+.listPage__wrapcontainer {
+    margin: 0 auto;
+    width: 63%;
+}
